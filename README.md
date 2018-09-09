@@ -9,8 +9,8 @@ Apenas um **simples** script.py de clima(Weather).
 * Add sua API Key na variável [apikey](clima.py#L7).
 
 ## **Imagens:**
-* [logo]: img/img1.png
-* [iae]: img/img2.png
+* ![logo](img/img1.png)
+* ![iae](img/img2.png)
 
 
 Criado por: **BlackZacky**
