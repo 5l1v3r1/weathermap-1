@@ -14,3 +14,5 @@ Apenas um **simples** script.py de clima(Weather).
 
 
 Criado por: **BlackZacky**
+
+# **:D**
