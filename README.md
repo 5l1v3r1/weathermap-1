@@ -11,8 +11,3 @@ Apenas um **simples** script.py de clima(Weather).
 ## **Imagens:**
 * ![logo](img/img1.png)
 * ![iae](img/img2.png)
-
-
-Criado por: **BlackZacky**
-
-# **:D**
