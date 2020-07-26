@@ -8,29 +8,29 @@ apikey = 'SUA API KEY'
 
 syst = platform.system()
 
-if syst == 'Linux':
-	system('clear')
-elif syst == 'Windows':
-	system('cls')
-
-print('-'*42)
-print("""
+def banner():
+	print('-'*42)
+	print("""
 __          __        _   _               
 \ \        / /       | | | |              
  \ \  /\  / /__  __ _| |_| |__   ___ _ __ 
   \ \/  \/ / _ \/ _` | __| '_ \ / _ \ '__|
    \  /\  /  __/ (_| | |_| | | |  __/ |   
     \/  \/ \___|\__,_|\__|_| |_|\___|_|   
-    			By: BlackZacky
-""")
+			By: BlackZacky
+	""")
 
-print('-'*42)
+	print('-'*42)
+
+system('clear || cls')
+
+banner()
+
 city = input('lugar: ')
 
-if syst == 'Linux':
-	system('clear')
-elif syst == 'Windows':
-	system('cls')
+system('clear || cls')
+
+banner()
 
 get = requests.get(f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={apikey}')
 tempo = json.loads(get.text)
